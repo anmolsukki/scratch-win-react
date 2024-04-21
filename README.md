@@ -22,15 +22,7 @@ const finishScrashHandler = () => console.log('event call on finish=====>>');
 ```
 
 ```jsx
-<ScratchCard
-  ref={ref}
-  width={250}
-  height={250}
-  brushSize={20}
-  finishPercent={50}
-  onComplete={() => finishScrashHandler()}
-  image="https://github.com/anmolsukki/scratch-win-react/blob/master/src/coupon.png"
->
+<ScratchCard ref={ref} width={250} height={250} brushSize={20} finishPercent={50} onComplete={() => finishScrashHandler()} image="https://raw.githubusercontent.com/anmolsukki/scratch-win-react/master/src/coupon.png">
   <p>Play & Win Game</p>
 </ScratchCard>
 ```
@@ -50,7 +42,7 @@ const finishScrashHandler = () => console.log('event call on finish=====>>');
 <u>Note: Custome Cursor Example</u>
 
 ```jsx
-brushCursor={`url('https://github.com/anmolsukki/scratch-win-react/blob/master/src/brush-paint.png'), auto;`}
+brushCursor={"url('https://raw.githubusercontent.com/anmolsukki/scratch-win-react/master/src/brush-paint.png'),auto;"}
 
 ----- OR ----
 
