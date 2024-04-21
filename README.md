@@ -42,7 +42,7 @@ const finishScrashHandler = () => console.log('event call on finish=====>>');
 <u>Note: Custome Cursor Example</u>
 
 ```jsx
-brushCursor={"url('https://raw.githubusercontent.com/anmolsukki/scratch-win-react/master/src/brush-paint.png'),auto;"}
+brushCursor={"url('https://raw.githubusercontent.com/anmolsukki/scratch-win-react/master/src/brush-paint.png'),auto"}
 
 ----- OR ----
 

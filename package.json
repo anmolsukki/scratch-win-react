@@ -1,6 +1,6 @@
 {
   "name": "scratch-win-react",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Scratch Card React/Next",
   "main": "./build/index.js",
   "scripts": {
